@@ -1,0 +1,71 @@
+<!-- Basic Structure of HTML -->
+
+<!--<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h2>This is heading</h2>
+    <p>This is a paragraph</p>
+</body>
+</html> -->
+
+<!-- Elements of Head tag -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="png-transparent-emoji-art-emoji-sticker-computer-icons-emoji-heart-smiley-emoticon.png" type="image/x-icon">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: yellow;
+            color: red;
+        }
+    </style>
+
+<!-- Basic Tags -->
+
+<p>Hello    World</p>
+<pre>Hello     World</pre>
+<hr>
+<p>Lorem ipsum dolor sit amet consectetur <br>  adipisicing elit. At, vel.</p>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+<marquee behavior="scroll" direction="down"> Hello World</marquee>
+<marquee behavior="scroll" direction="up"> Hello World</marquee>
+<marquee behavior="alternate" direction="left"> Hello World</marquee>
+<marquee behavior="slide" direction="right"> Hello World</marquee>
+
+
+<!-- Text Formatting tags -->
+
+<p>
+    <b>Bold </b><br>
+    <strong>Strong </strong> <br>
+    <i>Italic</i> <br>
+    <em>Emphasis</em><br>
+    <small>Small text</small><br>
+    Normal text<br>
+    <big>Big text</big> <br>
+    <sup>Super script</sup><br>
+    <sub>Sub script</sub><br>
+    <strike>Strike through</strike><br>
+    <del>Deleted text</del><br>
+    <u>Underlined text</u><br>
+    <ins>Inserted text</ins><br>
+    
+    <mark>Highlighted</mark><br>
+    <abbr title="Hyper Text Markup Language">HTML</abbr><br>
+    <acronym title="hello">hi</acronym><br>
+    <p><dfn>HTML</dfn> means hyper text markup Language</p>
+    <p><cite>HTML</cite> means hyper text markup Language</p>
+    <cite>helloworld</cite>
+    <blockquote>This is a block quote</blockquote><br>
+    <q>This is not block quotes</q>
+</p>
+

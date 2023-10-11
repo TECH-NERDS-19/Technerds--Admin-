@@ -1,0 +1,139 @@
+<!-- Basic Structure of HTML -->
+
+<!--<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h2>This is heading</h2>
+    <p>This is a paragraph</p>
+</body>
+</html> -->
+
+<!-- Elements of Head tag -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="png-transparent-emoji-art-emoji-sticker-computer-icons-emoji-heart-smiley-emoticon.png" type="image/x-icon">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: yellow;
+            color: red;
+        }
+    </style>
+
+<!-- Basic Tags -->
+
+<p>Hello    World</p>
+<pre>Hello     World</pre>
+<hr>
+<p>Lorem ipsum dolor sit amet consectetur <br>  adipisicing elit. At, vel.</p>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+<marquee behavior="scroll" direction="down"> Hello World</marquee>
+<marquee behavior="scroll" direction="up"> Hello World</marquee>
+<marquee behavior="alternate" direction="left"> Hello World</marquee>
+<marquee behavior="slide" direction="right"> Hello World</marquee>
+
+
+<!-- Text Formatting tags -->
+
+<p>
+    <b>Bold </b><br>
+    <strong>Strong </strong> <br>
+    <i>Italic</i> <br>
+    <em>Emphasis</em><br>
+    <small>Small text</small><br>
+    Normal text<br>
+    <big>Big text</big> <br>
+    <sup>Super script</sup><br>
+    <sub>Sub script</sub><br>
+    <strike>Strike through</strike><br>
+    <del>Deleted text</del><br>
+    <u>Underlined text</u><br>
+    <ins>Inserted text</ins><br>
+    
+    <mark>Highlighted</mark><br>
+    <abbr title="Hyper Text Markup Language">HTML</abbr><br>
+    <acronym title="hello">hi</acronym><br>
+    <p><dfn>HTML</dfn> means hyper text markup Language</p>
+    <p><cite>HTML</cite> means hyper text markup Language</p>
+    <cite>helloworld</cite>
+    <blockquote>This is a block quote</blockquote><br>
+    <q>This is not block quotes</q>
+</p>
+
+<!-- Multimedia -->
+
+    <img src="" alt="" width="">
+    <video src="" controls width=""></video>
+    <audio src="" controls></audio>
+
+<!-- Anchor and Hyper links -->
+
+    
+    <a href="sample.txt" title="Hello World" target="_blank"> anchor tag next page</a>
+    <a href="sample.txt" title="Hello World"> anchor tag same page</a>
+    <a href="tel:1234567" title="HelloWorld">anchor tag for telephone </a>
+    <a href="mailto:example@gmail.com?subject=nothing&body=helloworld" title="Hello World" > anchor tag for mail</a>
+
+<!-- Lists -->
+<!-- Ordered Lists -->
+
+<ol>
+    <li>hello</li>
+    <li>hello1</li>
+    <li>hello2</li>
+</ol>
+
+<!-- Unordered Lists -->
+
+<ul type="square" >
+    <li>hello</li>
+    <li>hello1</li>
+    <li>hello2</li>
+</ul>
+
+<!-- Nested Lists -->
+
+<ul type="square" >
+    <li>hello</li><ul type="disc" >
+        <li>hello</li>
+        <li>hello1</li>
+        <li>hello2</li>
+    </ul>
+    <li>hello1</li>
+    <li>hello2</li>
+</ul>
+
+<!-- Definition Lists -->
+
+<dl>
+    <dt>hello</dt>
+    <dd>hello world good morning</dd>
+    <dt>hello1</dt>
+    <dd>hello world, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, suscipit! good morning</dd>
+</dl>
+
+ <!-- Tables -->
+    <table border="1" cellspacing="1">
+        <caption>xyz</caption>
+        <tr>
+            <th>first</th>
+            <th>second</th>
+        </tr>
+        <tr>
+            <td rowspan="2">a2</td>
+            <td>data2</td>
+        </tr>
+        <tr>
+            <td>a1</td>
+            <!-- <td>data1</td> -->
+        </tr>
+    </table>
